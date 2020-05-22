@@ -19,6 +19,8 @@ class KNN:
 if __name__ == "__main__":
     training_samples, training_labels, test_samples, test_labels = preprocess_data()
 
+    expression = True
+
     # svm_model = SVM()
     # knn_model = KNN()
 
